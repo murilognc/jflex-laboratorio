@@ -1,0 +1,10 @@
+services:
+  lexer:
+    build: .
+    image: jflex-laboratorio:1.0
+    container_name: jflex-laboratorio
+    working_dir: /app
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true

@@ -1,0 +1,3 @@
+int idade = 25;
+int resultado = idade @ 10;
+float valor = 12.50;

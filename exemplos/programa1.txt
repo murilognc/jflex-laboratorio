@@ -1,0 +1,4 @@
+int idade = 25;
+float altura = 1.75;
+
+int resultado = idade + 10;
